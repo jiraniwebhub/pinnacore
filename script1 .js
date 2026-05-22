@@ -9,7 +9,7 @@
 /* ──────────────────────────────────────────
    CONFIG
 ────────────────────────────────────────── */
-const WHATSAPP_NUMBER = "254700000000"; // ← Replace with your real number
+const WHATSAPP_NUMBER = "254722468979"; // ← Replace with your real number
 const BRAND_NAME      = "Pinnacore Enterprise";
 
 /* ──────────────────────────────────────────
@@ -23,33 +23,23 @@ const products = [
   ════════════════════════════════════ */
   {
     id: 1,
-    name: "Whiteboard Markers Set",
+    name: "Whiteboard Markers Set.",
     category: "Writing & Office Supplies",
     price: 350,
     quantity: 120,
-    image: "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=600&q=80",
+    image: "images/_Refillable Whiteboard Markers (10 Pcs).jpeg",
     emoji: "🖊️",
     featured: true,
     description: "Vibrant dry-erase markers for classroom and office whiteboards. Smooth ink flow, easy to wipe clean."
   },
-  {
-    id: 2,
-    name: "Refillable Whiteboard Markers (10 Pcs)",
-    category: "Writing & Office Supplies",
-    price: 450,
-    quantity: 80,
-    image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=600&q=80",
-    emoji: "✏️",
-    featured: false,
-    description: "Eco-friendly refillable markers. 10 assorted colours. Reduce waste and save costs."
-  },
+
   {
     id: 3,
-    name: "Whiteboard Marker Ink Refill",
+    name: "Whiteboard Marker ",
     category: "Writing & Office Supplies",
     price: 70,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&q=80",
+    image: "/images/Whiteboard Marker Ink Refill.jpeg",
     emoji: "🖋️",
     featured: false,
     description: "Compatible refill ink for most whiteboard markers. 30ml bottle. Black, red, blue available."
@@ -60,7 +50,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 150,
     quantity: 150,
-    image: "https://images.unsplash.com/photo-1603284569248-821525309698?w=600&q=80",
+    image: "/images/Permanent Markers (12 Pcs).jpeg",
     emoji: "🖍️",
     featured: false,
     description: "Waterproof, fade-resistant permanent markers. Marks on paper, plastic, glass and metal."
@@ -71,7 +61,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 540,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=600&q=80",
+    image: "/images/Premium Marker Pens Set (36 Colours).jpeg",
     emoji: "🎨",
     featured: true,
     description: "36-colour professional marker set. Dual tip: fine and chisel. Ideal for art, charts and presentations."
@@ -82,7 +72,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 100,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=600&q=80",
+    image: "images/Stainless Steel Metal Ruler 30cm (1).jpeg",
     emoji: "📏",
     featured: false,
     description: "Heavy-duty stainless steel ruler. Non-slip cork backing. Clear metric and imperial markings."
@@ -93,7 +83,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 100,
     quantity: 90,
-    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&q=80",
+    image: "/images/Blackboard Wooden Ruler 1m.jpeg",
     emoji: "📐",
     featured: false,
     description: "1-metre hardwood blackboard ruler for classroom use. Clear numbered markings on both sides."
@@ -104,18 +94,18 @@ const products = [
     category: "Writing & Office Supplies",
     price: 350,
     quantity: 100,
-    image: "https://images.unsplash.com/photo-1568393691622-c7ba131d63b4?w=600&q=80",
+    image: "/images/Paperclips Assorted (1000 Pcs).jpeg",
     emoji: "📎",
     featured: false,
     description: "Assorted size paperclips in a dispenser box. Rust-resistant steel, smooth finish."
   },
   {
     id: 9,
-    name: "Office Pins / Push Pins (100 Pcs)",
+    name: "images/Office Pins _ Push Pins (100 Pcs).jpeg",
     category: "Writing & Office Supplies",
     price: 50,
     quantity: 300,
-    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80",
+    image: "images/Office Pins _ Push Pins (100 Pcs).jpeg",
     emoji: "📌",
     featured: false,
     description: "100-pack colourful push pins. Sharp steel point, easy-grip plastic head. Ideal for notice boards."
@@ -126,7 +116,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 650,
     quantity: 55,
-    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+    image: "/images/Desktop Heavy-Duty Stapler.jpeg",
     emoji: "📋",
     featured: true,
     description: "Jam-proof desktop stapler. Staples up to 25 sheets. Non-slip rubber base. Includes starter staples."
@@ -137,7 +127,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 250,
     quantity: 70,
-    image: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80",
+    image: "/images/Stamp Ink Pad.jpeg",
     emoji: "🔏",
     featured: false,
     description: "Premium stamp ink pad. Fast-drying, smear-resistant. Available in blue, red and black."
@@ -148,7 +138,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 70,
     quantity: 150,
-    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+    image: "/images/Endorsing Ink Bottle.jpeg",
     emoji: "💧",
     featured: false,
     description: "High-quality endorsing ink for stamp pads. 30ml bottle, waterproof formula."
@@ -159,7 +149,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 150,
     quantity: 180,
-    image: "https://images.unsplash.com/photo-1621955964441-c173e01c135b?w=600&q=80",
+    image: "/images/Office Glue Stick Premium.jpeg",
     emoji: "🧴",
     featured: false,
     description: "Strong acid-free glue stick. Non-toxic, clear drying. Ideal for paper, cardboard and photos."
@@ -170,7 +160,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 200,
     quantity: 110,
-    image: "https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=600&q=80",
+    image: "/images/Professional Scissors Set.jpeg",
     emoji: "✂️",
     featured: false,
     description: "Stainless steel scissors with ergonomic soft-grip handles. Sharp blades for precise cuts."
@@ -181,7 +171,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 1200,
     quantity: 45,
-    image: "https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?w=600&q=80",
+    image: "/images/Scientific Calculator 240 Functions.jpeg",
     emoji: "🔢",
     featured: true,
     description: "240+ functions scientific calculator. Solar + battery dual power. Ideal for students and engineers."
@@ -192,7 +182,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 160,
     quantity: 75,
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80",
+    image: "/images/Technical Drawing Set (10 Pcs).jpeg",
     emoji: "📐",
     featured: false,
     description: "Complete 10-piece geometry set. Compass, protractor, set squares and rulers. Includes carry case."
@@ -207,7 +197,7 @@ const products = [
     category: "School Supplies",
     price: 280,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80",
+    image: "/images/Exercise Books Pack (10 Pcs).jpeg",
     emoji: "📓",
     featured: true,
     description: "A4 96-page ruled exercise books. Durable covers, quality 70gsm paper. Pack of 10."
@@ -218,7 +208,7 @@ const products = [
     category: "School Supplies",
     price: 150,
     quantity: 160,
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    image: "images/Book Covers Assorted Pack.jpeg",
     emoji: "📚",
     featured: false,
     description: "Protective PVC book covers in assorted colours. Self-adhesive, transparent. Pack of 12."
@@ -229,7 +219,7 @@ const products = [
     category: "School Supplies",
     price: 100,
     quantity: 90,
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80",
+    image: "images/Educational Wall Charts.jpeg",
     emoji: "📊",
     featured: false,
     description: "Full-colour laminated educational charts. Alphabet, numbers, maps, science topics. A2 size."
@@ -240,7 +230,7 @@ const products = [
     category: "School Supplies",
     price: 150,
     quantity: 120,
-    image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=80",
+    image: "images/Student Geometry Set (7 Pcs).jpeg",
     emoji: "📐",
     featured: false,
     description: "7-piece geometry set in zip pouch. Compass, protractor, rulers and set squares."
@@ -251,18 +241,18 @@ const products = [
     category: "School Supplies",
     price: 350,
     quantity: 40,
-    image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80",
+    image: "images/Teacher's Wooden Geometry Set.jpeg",
     emoji: "📏",
     featured: true,
     description: "Large-scale wooden geometry tools for blackboard teaching. Set of 5 pieces. Durable hardwood."
   },
   {
     id: 22,
-    name: "White Chalk Box (100 Pcs)",
+    name: "White Chalk Box (10 Pcs)",
     category: "School Supplies",
     price: 700,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80",
+    image: "images/White Chalk Box (100 Pcs).jpeg",
     emoji: "🖊️",
     featured: false,
     description: "Premium white chalk sticks for blackboard use. Dust-free formula, smooth writing. Box of 100."
@@ -273,7 +263,7 @@ const products = [
     category: "School Supplies",
     price: 100,
     quantity: 130,
-    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&q=80",
+    image: "images/Dust-Free Board Eraser.jpeg",
     emoji: "🧹",
     featured: false,
     description: "Anti-dust felt board eraser. Ergonomic wood handle. Erases chalk cleanly without mess."
@@ -295,7 +285,7 @@ const products = [
     category: "School Supplies",
     price: 550,
     quantity: 70,
-    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&q=80",
+    image: "images/Ruled Papers — 500 Sheets (1).jpeg",
     emoji: "📄",
     featured: false,
     description: "A4 ruled loose-leaf paper. 80gsm bright white. 500 sheets. Perfect for notes and assignments."
@@ -306,7 +296,7 @@ const products = [
     category: "School Supplies",
     price: 1000,
     quantity: 35,
-    image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&q=80",
+    image: "images/Manila Paper Ream.jpeg",
     emoji: "📃",
     featured: false,
     description: "Brown manila paper for crafts and packaging. 45gsm. 100 sheets per ream."
@@ -317,7 +307,7 @@ const products = [
     category: "School Supplies",
     price: 50,
     quantity: 250,
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80",
+    image: "images/Petty Cash Voucher Book.jpeg",
     emoji: "📒",
     featured: false,
     description: "50-leaf carbonless petty cash voucher book. Official format. Numbered for easy tracking."
@@ -328,7 +318,7 @@ const products = [
     category: "School Supplies",
     price: 50,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80",
+    image: "images/Salary Voucher Book.jpeg",
     emoji: "💼",
     featured: false,
     description: "50-leaf salary/wages voucher book. Printed in duplicate. Standard payroll format."
@@ -339,7 +329,7 @@ const products = [
     category: "School Supplies",
     price: 80,
     quantity: 300,
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80",
+    image: "images/Exam Revision Booklet.jpeg",
     emoji: "📝",
     featured: false,
     description: "A4 revision answer booklet. 16 pages, ruled and numbered. Used by candidates in exams."
@@ -354,7 +344,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 250,
     quantity: 140,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    image: "images/Colouring Crayons Set (24 Colours).jpeg",
     emoji: "🖍️",
     featured: true,
     description: "24 vibrant wax crayons. Smooth colour laydown, break-resistant. Safe for children aged 3+."
@@ -365,7 +355,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 350,
     quantity: 90,
-    image: "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80",
+    image: "images/Watercolour Paint Set (12 Colours).jpeg",
     emoji: "🎨",
     featured: true,
     description: "12 professional watercolour pans. Rich pigmentation, easy re-wetting. Includes mixing palette and brush."
@@ -376,7 +366,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 550,
     quantity: 55,
-    image: "https://images.unsplash.com/photo-1514539079130-25950c84af65?w=600&q=80",
+    image: "images/Drawing Ink — Black India Ink.jpeg",
     emoji: "🖋️",
     featured: false,
     description: "Premium black India drawing ink. Waterproof, archival quality. 60ml bottle."
@@ -387,7 +377,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 50,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
+    image: "images/Artist Point Brushes Set (6 Pcs).jpeg",
     emoji: "🖌️",
     featured: false,
     description: "Set of 6 nylon point brushes in sizes 1, 2, 4, 6, 8, 10. For watercolour, acrylic and oil."
@@ -398,7 +388,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 750,
     quantity: 45,
-    image: "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=600&q=80",
+    image: "images/Acrylic Liquid Paint Set (12 Colours).jpeg",
     emoji: "🎨",
     featured: true,
     description: "12 colours, 20ml tubes. Fast-drying, flexible when dry. Works on canvas, paper, wood and fabric."
@@ -409,7 +399,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 750,
     quantity: 30,
-    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
+    image: "images/Oil Paint Professional Set.jpeg",
     emoji: "🖼️",
     featured: false,
     description: "12 professional oil paint tubes. Rich pigments, slow-drying for blending. Lightfast and permanent."
@@ -420,7 +410,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 750,
     quantity: 25,
-    image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&q=80",
+    image: "images/Glass Paint Set (8 Colours).jpeg",
     emoji: "🔮",
     featured: false,
     description: "Translucent glass paint in 8 colours. No baking required. Vibrant finish on glass and ceramics."
@@ -431,7 +421,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 100,
     quantity: 150,
-    image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&q=80",
+    image: "images/Hair Beads Assorted Pack (200 Pcs).jpeg",
     emoji: "💎",
     featured: false,
     description: "Assorted colourful hair beads. 200 pieces per pack. Mix of shapes and sizes for braiding."
@@ -442,7 +432,7 @@ const products = [
     category: "Art & Craft Supplies",
     price: 300,
     quantity: 80,
-    image: "https://images.unsplash.com/photo-1607868894064-2b6e7ed1b324?w=600&q=80",
+    image: "images/Food Colouring Set (8 Colours) (1).jpeg",
     emoji: "🌈",
     featured: false,
     description: "Liquid food colouring in 8 vivid shades. Odourless, tasteless, safe for baking and cooking."
@@ -457,7 +447,7 @@ const products = [
     category: "Office Machines",
     price: 4500,
     quantity: 15,
-    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=600&q=80",
+    image: "/images/Comb Binding Machine.jpeg",
     emoji: "🖨️",
     featured: true,
     description: "Professional comb binding machine. Binds up to 450 sheets. 21-hole punch. Includes starter combs."
@@ -468,7 +458,7 @@ const products = [
     category: "Office Machines",
     price: 2100,
     quantity: 20,
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&q=80",
+    image: "images/Heavy-Duty Paper Cutter A4.jpeg",
     emoji: "✂️",
     featured: false,
     description: "Precision guillotine paper cutter. Cuts up to 10 sheets. Safety guard included."
@@ -479,7 +469,7 @@ const products = [
     category: "Office Machines",
     price: 2500,
     quantity: 10,
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=600&q=80",
+    image: "images/Wireless-Inkjet-Colour-Printer.jpeg",
     emoji: "🖨️",
     featured: true,
     description: "Wireless inkjet printer. Print, scan and copy. Up to 10ppm colour, 20ppm mono. Wi-Fi enabled."
@@ -490,7 +480,7 @@ const products = [
     category: "Office Machines",
     price: 1800,
     quantity: 18,
-    image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80",
+    image: "images/Impulse Heat Sealer 30cm.jpeg",
     emoji: "⚙️",
     featured: false,
     description: "30cm impulse sealer for plastic bags and packaging. One-touch operation, adjustable timer."
@@ -501,7 +491,7 @@ const products = [
     category: "Office Machines",
     price: 250,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&q=80",
+    image: "images/Laminating Pouch Film A4 (100 Pcs).jpeg",
     emoji: "📄",
     featured: false,
     description: "A4 glossy laminating pouches. 80 microns, crystal clear finish. Compatible with all A4 laminators."
@@ -512,7 +502,7 @@ const products = [
     category: "Office Machines",
     price: 11500,
     quantity: 5,
-    image: "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?w=600&q=80",
+    image: "images/Rotary Paper Trimmer _ Gutter (1).jpeg",
     emoji: "🔧",
     featured: false,
     description: "Professional rotary trimmer. 45cm cutting length, self-sharpening blade. Ideal for print shops."
@@ -527,7 +517,7 @@ const products = [
     category: "Sports & Games",
     price: 1000,
     quantity: 50,
-    image: "https://images.unsplash.com/photo-1614632537190-23e4e3c7c4b0?w=600&q=80",
+    image: "images/Official Size Football.jpeg",
     emoji: "⚽",
     featured: true,
     description: "Size 5 laminated football. Machine-stitched, durable PVC panels. For grass and hard courts."
@@ -538,7 +528,7 @@ const products = [
     category: "Sports & Games",
     price: 150,
     quantity: 100,
-    image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?w=600&q=80",
+    image: "images/Speed Jump Skipping Rope.jpeg",
     emoji: "🪢",
     featured: false,
     description: "Adjustable speed jump rope. Ball-bearing handles for smooth rotation. Suitable for all ages."
@@ -549,7 +539,7 @@ const products = [
     category: "Sports & Games",
     price: 1100,
     quantity: 30,
-    image: "https://images.unsplash.com/photo-1528702748617-c64d49f918af?w=600&q=80",
+    image: "images/Sisal Dartboard Sport Set.jpeg",
     emoji: "🎯",
     featured: false,
     description: "Sisal fibre dartboard with 6 steel-tip darts. 45cm diameter. Includes mounting kit."
@@ -560,7 +550,7 @@ const products = [
     category: "Sports & Games",
     price: 650,
     quantity: 35,
-    image: "https://images.unsplash.com/photo-1631193816258-28b44b21e78b?w=600&q=80",
+    image: "images/Classic Scrabble Board Game.jpeg",
     emoji: "🔤",
     featured: true,
     description: "Classic Scrabble word game. 100 letter tiles, premium board, 4 tile racks. 2–4 players."
@@ -571,7 +561,7 @@ const products = [
     category: "Sports & Games",
     price: 1100,
     quantity: 40,
-    image: "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?w=600&q=80",
+    image: "images/Snakes & Ladders Board Game.jpeg",
     emoji: "🐍",
     featured: false,
     description: "Family snakes and ladders set. Large laminated board. Colourful pawns and dice included."
@@ -582,7 +572,7 @@ const products = [
     category: "Sports & Games",
     price: 350,
     quantity: 55,
-    image: "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=600&q=80",
+    image: "images/Kids Acoustic Toy Guitar.jpeg",
     emoji: "🎸",
     featured: false,
     description: "Colourful 6-string acoustic toy guitar for children. Tunable, real sound. Age 4+."
@@ -593,7 +583,7 @@ const products = [
     category: "Sports & Games",
     price: 600,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80",
+    image: "images/Kids Wooden Building Blocks (100 Pcs).jpeg",
     emoji: "🧱",
     featured: false,
     description: "100-piece wooden building blocks. Shapes, colours and letters. Encourages creativity in toddlers."
@@ -604,7 +594,7 @@ const products = [
     category: "Sports & Games",
     price: 500,
     quantity: 45,
-    image: "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?w=600&q=80",
+    image: "images/LEGO-Compatible Bricks Set (200 Pcs).jpeg",
     emoji: "🧩",
     featured: true,
     description: "200-piece brick set. Bright colours, compatible with major brick brands. Age 3+."
@@ -615,7 +605,7 @@ const products = [
     category: "Sports & Games",
     price: 150,
     quantity: 120,
-    image: "https://images.unsplash.com/photo-1591464640898-1b5c06948bf4?w=600&q=80",
+    image: "images/Glass Marbles Bag (50 Pcs).jpeg",
     emoji: "🔵",
     featured: false,
     description: "Traditional glass marbles in assorted colours and sizes. 50 pieces in a drawstring bag."
@@ -630,7 +620,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 170,
     quantity: 100,
-    image: "https://images.unsplash.com/photo-1625315714082-11d4aec91e54?w=600&q=80",
+    image: "images/Heavy-Duty Duct Tape 50mm.jpeg",
     emoji: "🎗️",
     featured: false,
     description: "50mm wide duct tape. Super strong, waterproof, tear by hand. For repairs and sealing."
@@ -641,7 +631,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 60,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1612461362980-3e2b0b4b3f2f?w=600&q=80",
+    image: "images/Clear Cellotape Rolls (6 Pack).jpeg",
     emoji: "📦",
     featured: false,
     description: "6-roll pack of clear cellulose tape. 19mm × 33m each. Transparent, acid-free and easy-tear."
@@ -652,7 +642,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 180,
     quantity: 150,
-    image: "https://images.unsplash.com/photo-1621955964441-c173e01c135b?w=600&q=80",
+    image: "images/Super Glue (5-Pack).jpeg",
     emoji: "🧲",
     featured: false,
     description: "Instant-bond cyanoacrylate super glue. Bonds in seconds. Works on metal, ceramic, rubber and plastic."
@@ -663,7 +653,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 650,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?w=600&q=80",
+    image: "images/Mini Hot Melt Glue Gun.jpeg",
     emoji: "🔫",
     featured: true,
     description: "Electric hot melt glue gun. Heats in 3 minutes. Anti-drip nozzle. Includes 10 glue sticks."
@@ -674,7 +664,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 2500,
     quantity: 15,
-    image: "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?w=600&q=80",
+    image: "images/Metal Heavy-Duty Glue Gun.jpeg",
     emoji: "🔧",
     featured: false,
     description: "Professional metal barrel glue gun. Full-size, high-temp. For industrial and craft applications."
@@ -685,7 +675,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 150,
     quantity: 100,
-    image: "https://images.unsplash.com/photo-1614267861476-0d129972a0f4?w=600&q=80",
+    image: "images/Hot Melt Glue Sticks (50 Pcs).jpeg",
     emoji: "🕯️",
     featured: false,
     description: "Standard 7mm diameter hot glue sticks. Compatible with most mini and full-size glue guns."
@@ -696,7 +686,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 650,
     quantity: 25,
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&q=80",
+    image: "images/Book Binding Glue 5KG.jpeg",
     emoji: "📚",
     featured: false,
     description: "Professional PVA book binding glue. 5KG tub. Flexible bond, dries clear."
@@ -707,7 +697,7 @@ const products = [
     category: "Adhesives & Tapes",
     price: 150,
     quantity: 80,
-    image: "https://images.unsplash.com/photo-1612461362980-3e2b0b4b3f2f?w=600&q=80",
+    image: "images/White Document Tape 25mm.jpeg",
     emoji: "📋",
     featured: false,
     description: "White self-adhesive document tape. 25mm wide. For binding, labelling and document repair."
@@ -722,7 +712,7 @@ const products = [
     category: "Files & Storage",
     price: 40,
     quantity: 400,
-    image: "https://images.unsplash.com/photo-1586282023338-52aa31f494a6?w=600&q=80",
+    image: "images/Document Wallet A4.jpeg",
     emoji: "📁",
     featured: false,
     description: "Clear PVC A4 document wallet. Strong press-stud closure. Holds up to 30 sheets."
@@ -733,7 +723,7 @@ const products = [
     category: "Files & Storage",
     price: 70,
     quantity: 250,
-    image: "https://images.unsplash.com/photo-1568543521952-e9e88f1059a8?w=600&q=80",
+    image: "images/Pocket Presentation File (40 Pockets).jpeg",
     emoji: "📂",
     featured: false,
     description: "40-pocket A4 presentation file. Numbered tabs, non-glare pockets. Professional ring binder."
@@ -744,7 +734,7 @@ const products = [
     category: "Files & Storage",
     price: 2200,
     quantity: 20,
-    image: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=600&q=80",
+    image: "images/C5 White Envelopes Box (1000 Pcs).jpeg",
     emoji: "✉️",
     featured: true,
     description: "C5 white self-seal envelopes. 90gsm, banker style. 1000 per box. For official correspondence."
@@ -755,7 +745,7 @@ const products = [
     category: "Files & Storage",
     price: 300,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&q=80",
+    image: "images/Record Index Cards (200 Pcs).jpeg",
     emoji: "🗃️",
     featured: false,
     description: "A6 index/record cards. Ruled on one side, blank on other. 200 cards in assorted colours."
@@ -766,11 +756,11 @@ const products = [
   ════════════════════════════════════ */
   {
     id: 66,
-    name: "Kenyan National Flag 90×150cm",
+    name: "Kenyan National Flag 90×150cm(1)",
     category: "Teaching Materials",
     price: 2000,
     quantity: 30,
-    image: "https://images.unsplash.com/photo-1580752300992-559f8e0734e0?w=600&q=80",
+    image: "images/Kenyan National Flag 90×150cm (1).jpeg",
     emoji: "🇰🇪",
     featured: true,
     description: "Official Kenyan flag. 90×150cm, polyester fabric. Vivid colours, weatherproof. Includes sleeve."
@@ -781,7 +771,7 @@ const products = [
     category: "Teaching Materials",
     price: 2500,
     quantity: 20,
-    image: "https://images.unsplash.com/photo-1580752300992-559f8e0734e0?w=600&q=80",
+    image: "images/East African Community Flag.jpeg",
     emoji: "🌍",
     featured: false,
     description: "EAC flag. 90×150cm, durable polyester. For schools, offices and ceremonies."
@@ -792,7 +782,7 @@ const products = [
     category: "Teaching Materials",
     price: 1800,
     quantity: 25,
-    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80",
+    image: "images/Electric School Bell 240V.jpeg",
     emoji: "🔔",
     featured: false,
     description: "240V electric school bell. 150mm chrome bell, loud and clear ring. Easy wall mounting."
@@ -803,7 +793,7 @@ const products = [
     category: "Teaching Materials",
     price: 100,
     quantity: 150,
-    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&q=80",
+    image: "images/Felt Board Duster.jpeg",
     emoji: "🧹",
     featured: false,
     description: "Premium felt board duster for blackboards and whiteboards. Ergonomic wooden handle."
@@ -818,7 +808,7 @@ const products = [
     category: "Toys & Kids Items",
     price: 350,
     quantity: 70,
-    image: "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=600&q=80",
+    image: "images/Creative Kids Playdough Set (8 Colours).jpeg",
     emoji: "🌈",
     featured: true,
     description: "8-colour playdough set with moulds and tools. Non-toxic, air-dry formula. Ages 3+."
@@ -829,7 +819,7 @@ const products = [
     category: "Toys & Kids Items",
     price: 60,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
+    image: "images/Jumbo Colouring Crayons (12 Pcs).jpeg",
     emoji: "🖍️",
     featured: false,
     description: "Thick jumbo crayons for toddlers. Non-toxic, washable. Easy to grip, vibrant colours."
@@ -840,7 +830,7 @@ const products = [
     category: "Toys & Kids Items",
     price: 450,
     quantity: 50,
-    image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600&q=80",
+    image: "images/Kids Jigsaw Puzzle (100 Pieces).jpeg",
     emoji: "🧩",
     featured: false,
     description: "100-piece animal-themed jigsaw puzzle. Large pieces, thick cardboard. Ages 5+."
@@ -851,7 +841,7 @@ const products = [
     category: "Toys & Kids Items",
     price: 280,
     quantity: 80,
-    image: "https://images.unsplash.com/photo-1607988795691-3d0147b43231?w=600&q=80",
+    image: "images/Washable Finger Paints Set (6 Colours).jpeg",
     emoji: "🎨",
     featured: false,
     description: "Washable finger paints in 6 colours. Safe for children. 30ml pots. For early creativity."
@@ -866,7 +856,7 @@ const products = [
     category: "General Accessories",
     price: 150,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80",
+    image: "images/Protective Face Masks (50 Pack).jpeg",
     emoji: "😷",
     featured: false,
     description: "3-ply disposable face masks. Comfortable elastic ear loops. BFE ≥95%. Pack of 50."
@@ -877,7 +867,7 @@ const products = [
     category: "General Accessories",
     price: 450,
     quantity: 60,
-    image: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&q=80",
+    image: "images/Hand Tally Counter (4-Digit).jpeg",
     emoji: "🔢",
     featured: false,
     description: "Mechanical hand tally counter. 4-digit display, up to 9999. Reset button. For events and counting."
@@ -888,7 +878,7 @@ const products = [
     category: "General Accessories",
     price: 250,
     quantity: 55,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    image: "images/Bicycle Floor Pump with Gauge (1).jpeg",
     emoji: "🚲",
     featured: false,
     description: "Compact floor pump with pressure gauge. Compatible with Presta and Schrader valves."
@@ -899,7 +889,7 @@ const products = [
     category: "General Accessories",
     price: 550,
     quantity: 75,
-    image: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80",
+    image: "images/Premium Metal Mesh Pen Holder.jpeg",
     emoji: "✏️",
     featured: true,
     description: "Elegant metal mesh pen holder. Multi-compartment design, weighted base. Brushed steel finish."
@@ -910,7 +900,7 @@ const products = [
     category: "General Accessories",
     price: 20,
     quantity: 300,
-    image: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?w=600&q=80",
+    image: "images/Sports Wristbands Pair.jpeg",
     emoji: "💪",
     featured: false,
     description: "Absorbent terry cloth wristbands. One size fits all. White, black and assorted colours."
@@ -921,7 +911,7 @@ const products = [
     category: "General Accessories",
     price: 50,
     quantity: 200,
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80",
+    image: "images/Metal Coach Whistle with Lanyard.jpeg",
     emoji: "🎵",
     featured: false,
     description: "Loud referee/coach whistle. Nickel-plated steel. Includes lanyard cord. Ear-piercing clear tone."
@@ -932,7 +922,7 @@ const products = [
     category: "General Accessories",
     price: 100,
     quantity: 180,
-    image: "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&q=80",
+    image: "images/Assorted Reward Stickers (200 Pcs).jpeg",
     emoji: "⭐",
     featured: false,
     description: "200 assorted reward and decorative stickers. Stars, hearts, animals and motivational stickers."
@@ -943,7 +933,7 @@ const products = [
     category: "General Accessories",
     price: 180,
     quantity: 150,
-    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80",
+    image: "images/Latex Balloons Assorted (50 Pcs).jpeg",
     emoji: "🎈",
     featured: false,
     description: "50 assorted colour latex balloons. 11-inch when inflated. For parties, celebrations and events."
@@ -954,7 +944,7 @@ const products = [
     category: "General Accessories",
     price: 350,
     quantity: 100,
-    image: "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?w=600&q=80",
+    image: "images/Satin Cotton Ribbon Roll 25mm.jpeg",
     emoji: "🎀",
     featured: false,
     description: "25mm satin ribbon, 10-metre roll. Smooth finish, vibrant colour. For gift wrapping and crafts."
@@ -965,7 +955,7 @@ const products = [
     category: "General Accessories",
     price: 250,
     quantity: 80,
-    image: "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?w=600&q=80",
+    image: "images/Metallic Curling Ribbon Disk Spool.jpeg",
     emoji: "🌀",
     featured: false,
     description: "Curling ribbon disk spool. 500 yards, assorted metallic colours. For gift wrapping."
@@ -976,7 +966,7 @@ const products = [
     category: "General Accessories",
     price: 1100,
     quantity: 35,
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=600&q=80",
+    image: "images/C6 White Inkjet Printer Cartridge.jpeg",
     emoji: "🖨️",
     featured: false,
     description: "Compatible C6 white inkjet cartridge. High-yield, 300+ pages. Works with most HP printers."
@@ -1106,8 +1096,11 @@ function buildCard(product, isFeatured = false) {
           src="${product.image}"
           alt="${product.name}"
           loading="lazy"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
-        />
+onerror="
+this.style.display='none';
+this.nextElementSibling.style.display='flex';
+this.parentElement.classList.add('fallback-active');
+"        />
         <span class="product-emoji-fallback" style="display:none">${product.emoji}</span>
       </div>
 
@@ -1193,7 +1186,7 @@ function renderProductsGrid() {
     countEl.innerHTML =
       `Showing <strong>${filtered.length}</strong> product${filtered.length !== 1 ? "s" : ""}${suffix}`;
   }
-
+const isMobile = window.innerWidth < 768;
   grid.innerHTML = filtered.map(p => buildCard(p)).join("");
   attachCardListeners(grid);
   observeCards(grid);
@@ -1204,13 +1197,19 @@ function renderProductsGrid() {
 ══════════════════════════════════════════ */
 function renderFeaturedGrid() {
   const grid = $("featuredGrid");
+
   if (!grid) return;
+
   const featured = products.filter(p => p.featured);
-  grid.innerHTML  = featured.map(p => buildCard(p, true)).join("");
+
+  grid.innerHTML = featured
+    .map(p => buildCard(p, true))
+    .join("");
+
   attachCardListeners(grid);
+
   observeCards(grid);
 }
-
 /* ══════════════════════════════════════════
    CARD LISTENERS
 ══════════════════════════════════════════ */
@@ -1389,12 +1388,12 @@ function showToast(msg) {
 function openCart() {
   $("cartSidebar")?.classList.add("open");
   $("cartOverlay")?.classList.add("show");
-  document.body.style.overflow = "hidden";
+  document.body.style.overflowY = "hidden";
 }
 function closeCart() {
   $("cartSidebar")?.classList.remove("open");
   $("cartOverlay")?.classList.remove("show");
-  document.body.style.overflow = "";
+  document.body.style.overflowY = "";
 }
 
 /* ══════════════════════════════════════════
@@ -1409,8 +1408,13 @@ function openMobileNav() {
 function closeMobileNav() {
   $("mobileNav")?.classList.remove("open");
   $("mobileOverlay")?.classList.remove("show");
-  document.body.style.overflow = "";
-}
+
+  setTimeout(() => {
+    const ov = $("mobileOverlay");
+    if (ov) ov.style.display = "none";
+  }, 300);
+
+document.body.style.overflowY = "";}
 
 /* ══════════════════════════════════════════
    SEARCH
@@ -1432,8 +1436,8 @@ window.addEventListener("scroll", () => {
   if (!header) return;
   const y = window.scrollY;
   header.classList.toggle("scrolled", y > 50);
-  if (y > lastScroll + 10 && y > 200) header.classList.add("hidden");
-  else if (y < lastScroll - 10)       header.classList.remove("hidden");
+  if (y > lastScroll + 15 && y > 120) header.classList.add("hidden");
+ else if (y < lastScroll - 15)       header.classList.remove("hidden");
   lastScroll = y;
 }, { passive: true });
 
@@ -1456,6 +1460,9 @@ function initSectionReveal() {
    BOOT
 ══════════════════════════════════════════ */
 document.addEventListener("DOMContentLoaded", () => {
+
+
+  document.addEventListener("touchstart", () => {}, { passive: true });
 
   buildCategoryList();
   renderProductsGrid();
@@ -1517,4 +1524,308 @@ document.addEventListener("DOMContentLoaded", () => {
       if (target) { e.preventDefault(); target.scrollIntoView({ behavior: "smooth" }); }
     });
   });
+});
+
+
+/* ═══════════════════════════════════════
+   EMERGENCY FIX PATCH (CART + SEARCH)
+   Paste at bottom ONLY
+══════════════════════════════════════ */
+
+(function () {
+  console.log("⚡ Patch loaded: fixing cart + search");
+
+  /* ───────── FIX 1: Remove broken product (id: 9 name bug) ───────── */
+  if (typeof products !== "undefined") {
+    const badIndex = products.findIndex(p => p.id === 9);
+    if (badIndex !== -1 && typeof products[badIndex].name === "string" &&
+        products[badIndex].name.includes("images/")) {
+      products[badIndex].name = "Office Pins / Push Pins (100 Pcs)";
+    }
+  }
+
+  /* ───────── FIX 2: Safe search override ───────── */
+  const searchBar = document.getElementById("searchBar");
+  if (searchBar) {
+    searchBar.addEventListener("input", function (e) {
+      window.searchQuery = e.target.value.trim();
+      window.activeCategory = "All";
+
+      if (typeof buildCategoryList === "function") buildCategoryList();
+      if (typeof renderProductsGrid === "function") renderProductsGrid();
+
+      if (window.searchQuery && window.scrollToShop) scrollToShop();
+    });
+  }
+
+  /* ───────── FIX 3: Fix cart add stability ───────── */
+  window.addToCart = function (id) {
+    const product = products.find(p => p.id === id);
+    if (!product || product.quantity === 0) return;
+
+    const existing = cart.find(i => i.id === id);
+
+    if (existing) {
+      if (existing.qty >= product.quantity) {
+        showToast(`⚠️ Stock limit reached`);
+        return;
+      }
+      existing.qty++;
+    } else {
+      cart.push({ id, qty: 1 });
+    }
+
+    renderCart();
+
+    setTimeout(() => {
+      if (typeof openCart === "function") openCart();
+    }, 80);
+
+    showToast(`✓ Added to cart`);
+  };
+
+  /* ───────── FIX 4: Prevent search close breaking state ───────── */
+  const searchClose = document.getElementById("searchClose");
+  if (searchClose) {
+    searchClose.addEventListener("click", function () {
+      if (typeof closeSearch === "function") closeSearch();
+
+      window.searchQuery = "";
+      window.activeCategory = "All";
+
+      const sb = document.getElementById("searchBar");
+      if (sb) sb.value = "";
+
+      if (typeof buildCategoryList === "function") buildCategoryList();
+      if (typeof renderProductsGrid === "function") renderProductsGrid();
+    });
+  }
+
+  /* ───────── FIX 5: Mobile nav safety ───────── */
+  window.closeMobileNav = function () {
+    const nav = document.getElementById("mobileNav");
+    const ov = document.getElementById("mobileOverlay");
+
+    if (nav) nav.classList.remove("open");
+
+    if (ov) {
+      ov.classList.remove("show");
+      setTimeout(() => {
+        ov.style.display = "none";
+      }, 200);
+    }
+
+    document.body.style.overflow = "";
+  };
+
+})();
+
+
+/* ═══════════════════════════════════════
+   FINAL CART REPAIR (FOR DEMO STABILITY)
+══════════════════════════════════════ */
+
+(function () {
+
+  console.log("🛒 Cart repair patch active");
+
+  /* ───────── FORCE GLOBAL SAFE CART FUNCTION ───────── */
+  window.addToCart = function (id) {
+    const product = products.find(p => p.id === id);
+    if (!product || product.quantity === 0) return;
+
+    if (!window.cart) window.cart = [];
+
+    let existing = window.cart.find(i => i.id === id);
+
+    if (existing) {
+      if (existing.qty >= product.quantity) {
+        if (typeof showToast === "function") {
+          showToast("⚠️ Stock limit reached");
+        }
+        return;
+      }
+      existing.qty += 1;
+    } else {
+      window.cart.push({ id, qty: 1 });
+    }
+
+    if (typeof renderCart === "function") {
+      renderCart();
+    }
+
+    if (typeof openCart === "function") {
+      setTimeout(() => openCart(), 100);
+    }
+
+    if (typeof showToast === "function") {
+      showToast("✓ Added to cart");
+    }
+  };
+
+  /* ───────── FIX CART TOTAL SAFETY ───────── */
+  window.getCartTotal = function () {
+    if (!window.cart) return 0;
+
+    return window.cart.reduce((sum, item) => {
+      const p = products.find(pr => pr.id === item.id);
+      if (!p) return sum;
+      return sum + (p.price * item.qty);
+    }, 0);
+  };
+
+  window.getCartCount = function () {
+    if (!window.cart) return 0;
+    return window.cart.reduce((s, i) => s + i.qty, 0);
+  };
+
+  /* ───────── HARD REFRESH CART UI ───────── */
+  function forceCartFix() {
+    const badge = document.getElementById("cartBadge");
+    if (badge && window.getCartCount) {
+      const count = window.getCartCount();
+      badge.textContent = count;
+      badge.classList.toggle("visible", count > 0);
+    }
+  }
+
+  setInterval(forceCartFix, 800);
+
+  /* ───────── RE-BIND ALL ADD BUTTONS SAFELY ───────── */
+  function rebindButtons() {
+    document.querySelectorAll(".btn-add-cart").forEach(btn => {
+      btn.onclick = function () {
+        const id = Number(this.dataset.id);
+        window.addToCart(id);
+      };
+    });
+  }
+
+  setInterval(rebindButtons, 1200);
+
+})();
+
+/* ══════════════════════════════════════════
+   CARD LISTENERS — NEW CLEAN VERSION
+══════════════════════════════════════════ */
+function attachCardListeners(container) {
+
+  const buttons = container.querySelectorAll(".btn-add-cart");
+
+  buttons.forEach(btn => {
+
+    /* remove old broken handlers */
+    const newBtn = btn.cloneNode(true);
+    btn.parentNode.replaceChild(newBtn, btn);
+
+    /* attach fresh listener */
+    newBtn.addEventListener("click", function (e) {
+
+      e.preventDefault();
+      e.stopPropagation();
+
+      const id = Number(this.dataset.id);
+
+      const product = products.find(p => p.id === id);
+
+      if (!product || product.quantity === 0) return;
+
+      const existing = cart.find(i => i.id === id);
+
+      if (existing) {
+
+        if (existing.qty >= product.quantity) {
+          showToast(`⚠️ Maximum stock reached`);
+          return;
+        }
+
+        existing.qty++;
+
+      } else {
+
+        cart.push({
+          id: id,
+          qty: 1
+        });
+
+      }
+
+      renderCart();
+
+      setTimeout(() => {
+        openCart();
+      }, 100);
+
+      this.textContent = "✓ Added!";
+      this.classList.add("added");
+
+      setTimeout(() => {
+
+        if (document.body.contains(this)) {
+          this.textContent = "Add to Cart";
+          this.classList.remove("added");
+        }
+
+      }, 1200);
+
+      showToast(`✓ ${product.name} added to cart`);
+
+    });
+
+  });
+
+}
+
+/* ═══════════════════════════════════════
+   FORCE CART BUTTON FIX
+══════════════════════════════════════ */
+
+document.addEventListener("click", function (e) {
+
+  /* ───────── REMOVE ITEM ───────── */
+  const removeBtn = e.target.closest(".cart-item-remove");
+
+  if (removeBtn) {
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    const id = Number(removeBtn.dataset.id);
+
+    cart = cart.filter(item => item.id !== id);
+
+    renderCart();
+
+    showToast("🗑️ Item removed");
+
+    return;
+  }
+
+  /* ───────── QUANTITY BUTTONS ───────── */
+  const qtyBtn = e.target.closest(".qty-btn");
+
+  if (qtyBtn) {
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    const id = Number(qtyBtn.dataset.id);
+    const delta = Number(qtyBtn.dataset.delta);
+
+    const item = cart.find(i => i.id === id);
+
+    if (!item) return;
+
+    const product = products.find(p => p.id === id);
+
+    item.qty = Math.max(
+      1,
+      Math.min(item.qty + delta, product.quantity)
+    );
+
+    renderCart();
+
+    return;
+  }
+
 });
