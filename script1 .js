@@ -1829,3 +1829,53 @@ document.addEventListener("click", function (e) {
   }
 
 });
+
+document.querySelectorAll("img").forEach(img => {
+  img.addEventListener("error", () => {
+    img.style.display = "none";
+    const fallback = img.parentElement.querySelector(".product-emoji-fallback");
+    if (fallback) fallback.style.display = "flex";
+  });
+});
+
+
+function openMobileNav() {
+  const nav = document.getElementById("mobileNav");
+  const ov = document.getElementById("mobileOverlay");
+
+  if (nav) nav.classList.add("open");
+  if (ov) ov.classList.add("show");
+
+  document.body.style.overflow = "hidden";
+}
+
+function closeMobileNav() {
+  const nav = document.getElementById("mobileNav");
+  const ov = document.getElementById("mobileOverlay");
+
+  if (nav) nav.classList.remove("open");
+  if (ov) ov.classList.remove("show");
+
+  document.body.style.overflow = "";
+}
+
+document.querySelectorAll("img").forEach(img => {
+  img.addEventListener("error", () => {
+
+    // hide broken image
+    img.style.display = "none";
+
+    // try fallback emoji if exists
+    const fallback = img.parentElement?.querySelector(".product-emoji-fallback");
+    if (fallback) {
+      fallback.style.display = "flex";
+    }
+
+    // final fallback placeholder
+    if (!fallback) {
+      img.src = "https://via.placeholder.com/400x400?text=No+Image";
+      img.style.display = "block";
+    }
+
+  });
+});
