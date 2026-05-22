@@ -27,7 +27,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 350,
     quantity: 120,
-    image: "images/Refillable Whiteboard Markers (10 Pcs).jpeg",
+    image: "images/Whiteboard Markers Set.jpeg",
     emoji: "🖊️",
     featured: true,
     description: "Vibrant dry-erase markers for classroom and office whiteboards. Smooth ink flow, easy to wipe clean."
