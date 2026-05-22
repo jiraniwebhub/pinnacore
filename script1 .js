@@ -39,7 +39,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 70,
     quantity: 200,
-    image: "/images/Whiteboard Marker Ink Refill.jpeg",
+    image: "images/Whiteboard Marker Ink Refill.jpeg",
     emoji: "🖋️",
     featured: false,
     description: "Compatible refill ink for most whiteboard markers. 30ml bottle. Black, red, blue available."
@@ -50,7 +50,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 150,
     quantity: 150,
-    image: "/images/Permanent Markers (12 Pcs).jpeg",
+    image: "images/Permanent Markers (12 Pcs).jpeg",
     emoji: "🖍️",
     featured: false,
     description: "Waterproof, fade-resistant permanent markers. Marks on paper, plastic, glass and metal."
@@ -61,7 +61,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 540,
     quantity: 60,
-    image: "/images/Premium Marker Pens Set (36 Colours).jpeg",
+    image: "images/Premium Marker Pens Set (36 Colours).jpeg",
     emoji: "🎨",
     featured: true,
     description: "36-colour professional marker set. Dual tip: fine and chisel. Ideal for art, charts and presentations."
@@ -83,7 +83,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 100,
     quantity: 90,
-    image: "/images/Blackboard Wooden Ruler 1m.jpeg",
+    image: "images/Blackboard Wooden Ruler 1m.jpeg",
     emoji: "📐",
     featured: false,
     description: "1-metre hardwood blackboard ruler for classroom use. Clear numbered markings on both sides."
@@ -94,7 +94,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 350,
     quantity: 100,
-    image: "/images/Paperclips Assorted (1000 Pcs).jpeg",
+    image: "images/Paperclips Assorted (1000 Pcs).jpeg",
     emoji: "📎",
     featured: false,
     description: "Assorted size paperclips in a dispenser box. Rust-resistant steel, smooth finish."
@@ -116,7 +116,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 650,
     quantity: 55,
-    image: "/images/Desktop Heavy-Duty Stapler.jpeg",
+    image: "images/Desktop Heavy-Duty Stapler.jpeg",
     emoji: "📋",
     featured: true,
     description: "Jam-proof desktop stapler. Staples up to 25 sheets. Non-slip rubber base. Includes starter staples."
@@ -127,7 +127,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 250,
     quantity: 70,
-    image: "/images/Stamp Ink Pad.jpeg",
+    image: "images/Stamp Ink Pad.jpeg",
     emoji: "🔏",
     featured: false,
     description: "Premium stamp ink pad. Fast-drying, smear-resistant. Available in blue, red and black."
@@ -138,7 +138,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 70,
     quantity: 150,
-    image: "/images/Endorsing Ink Bottle.jpeg",
+    image: "images/Endorsing Ink Bottle.jpeg",
     emoji: "💧",
     featured: false,
     description: "High-quality endorsing ink for stamp pads. 30ml bottle, waterproof formula."
@@ -149,7 +149,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 150,
     quantity: 180,
-    image: "/images/Office Glue Stick Premium.jpeg",
+    image: "images/Office Glue Stick Premium.jpeg",
     emoji: "🧴",
     featured: false,
     description: "Strong acid-free glue stick. Non-toxic, clear drying. Ideal for paper, cardboard and photos."
@@ -160,7 +160,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 200,
     quantity: 110,
-    image: "/images/Professional Scissors Set.jpeg",
+    image: "images/Professional Scissors Set.jpeg",
     emoji: "✂️",
     featured: false,
     description: "Stainless steel scissors with ergonomic soft-grip handles. Sharp blades for precise cuts."
@@ -171,7 +171,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 1200,
     quantity: 45,
-    image: "/images/Scientific Calculator 240 Functions.jpeg",
+    image: "images/Scientific Calculator 240 Functions.jpeg",
     emoji: "🔢",
     featured: true,
     description: "240+ functions scientific calculator. Solar + battery dual power. Ideal for students and engineers."
@@ -182,7 +182,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 160,
     quantity: 75,
-    image: "/images/Technical Drawing Set (10 Pcs).jpeg",
+    image: "images/Technical Drawing Set (10 Pcs).jpeg",
     emoji: "📐",
     featured: false,
     description: "Complete 10-piece geometry set. Compass, protractor, set squares and rulers. Includes carry case."
@@ -197,7 +197,7 @@ const products = [
     category: "School Supplies",
     price: 280,
     quantity: 200,
-    image: "/images/Exercise Books Pack (10 Pcs).jpeg",
+    image: "images/Exercise Books Pack (10 Pcs).jpeg",
     emoji: "📓",
     featured: true,
     description: "A4 96-page ruled exercise books. Durable covers, quality 70gsm paper. Pack of 10."
