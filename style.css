@@ -1326,3 +1326,71 @@ button, a {
   }
 
 }
+
+.highlight {
+  border-left: 5px solid #111;
+}
+
+.support {
+  background: #f0f4ff;
+}
+
+.info-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.info-card ul li {
+  margin-bottom: 8px;
+}
+
+.info-card p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* make header slightly more premium */
+.info-header {
+  background: linear-gradient(135deg, #111, #333);
+}
+
+/* hover effect for cards */
+.info-card {
+  transition: transform 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+}
+
+.info-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.info-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.highlight {
+  border-left: 5px solid #111;
+}
+
+.support {
+  background: #f0f4ff;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}

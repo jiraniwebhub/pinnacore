@@ -1879,3 +1879,47 @@ document.querySelectorAll("img").forEach(img => {
 
   });
 });
+
+/* ═══════════════════════════════════════
+   IMAGE SAFETY PATCH (GLOBAL FIX)
+══════════════════════════════════════ */
+
+(function () {
+  console.log("🖼️ Image safety patch active");
+
+  function fixImages() {
+    document.querySelectorAll("img").forEach(img => {
+
+      // If image fails → fallback instantly
+      img.onerror = function () {
+
+        // Hide broken image
+        this.style.display = "none";
+
+        // Show fallback emoji if exists
+        const fallback = this.parentElement?.querySelector(".product-emoji-fallback");
+        if (fallback) {
+          fallback.style.display = "flex";
+        }
+
+        // Optional: replace with default image if you have one
+        // this.src = "images/fallback.jpg";
+      };
+
+    });
+  }
+
+  // Run now
+  fixImages();
+
+  // Also run again after DOM updates (VERY IMPORTANT for your cart/shop)
+  const observer = new MutationObserver(() => {
+    fixImages();
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+
+})();
