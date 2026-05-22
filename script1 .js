@@ -27,7 +27,7 @@ const products = [
     category: "Writing & Office Supplies",
     price: 350,
     quantity: 120,
-    image: "images/_Refillable Whiteboard Markers (10 Pcs).jpeg",
+    image: "images/Refillable Whiteboard Markers (10 Pcs).jpeg",
     emoji: "🖊️",
     featured: true,
     description: "Vibrant dry-erase markers for classroom and office whiteboards. Smooth ink flow, easy to wipe clean."
@@ -447,7 +447,7 @@ const products = [
     category: "Office Machines",
     price: 4500,
     quantity: 15,
-    image: "/images/Comb Binding Machine.jpeg",
+    image: "images/Comb Binding Machine.jpeg",
     emoji: "🖨️",
     featured: true,
     description: "Professional comb binding machine. Binds up to 450 sheets. 21-hole punch. Includes starter combs."
