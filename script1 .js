@@ -375,7 +375,7 @@ const products = [
     id: 33,
     name: "Artist Point Brushes Set (6 Pcs)",
     category: "Art & Craft Supplies",
-    price: 50,
+    price: 150,
     quantity: 200,
     image: "images/Artist Point Brushes Set (6 Pcs).jpeg",
     emoji: "🖌️",
@@ -511,17 +511,17 @@ const products = [
   /* ════════════════════════════════════
      5. SPORTS & GAMES
   ════════════════════════════════════ */
-  {
-    id: 45,
-    name: "Official Size Football",
-    category: "Sports & Games",
-    price: 1000 - 2500,
-    quantity: 50,
-    image: "images/Official Size Football.jpeg",
-    emoji: "⚽",
-    featured: true,
-    description: "Size 5 laminated football. Machine-stitched, durable PVC panels. For grass and hard courts."
-  },
+ {
+  id: 45,
+  name: "Official Size Football",
+  category: "Sports & Games",
+  price: "1000 - 2500",
+  quantity: 50,
+  image: "images/Official Size Football.jpeg",
+  emoji: "⚽",
+  featured: true,
+  description: "Size 5 laminated football. Machine-stitched, durable PVC panels. For grass and hard courts."
+},  
   {
     id: 46,
     name: "Speed Jump Skipping Rope",
